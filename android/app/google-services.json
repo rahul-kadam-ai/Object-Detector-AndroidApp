@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417067016744",
+    "firebase_url": "https://cs-image-captioning-test.firebaseio.com",
+    "project_id": "cs-image-captioning-test",
+    "storage_bucket": "cs-image-captioning-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417067016744:android:4ec858c6dc6ae818578b1d",
+        "android_client_info": {
+          "package_name": "com.aioptimist.tflite_custom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417067016744-vfu39egori8k7qaa1034ivv6tvkni534.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMAP8RLPtkoo9zPST1ow8jMu87qKKiLcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417067016744-vfu39egori8k7qaa1034ivv6tvkni534.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

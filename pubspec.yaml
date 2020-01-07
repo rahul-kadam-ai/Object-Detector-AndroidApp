@@ -1,0 +1,45 @@
+name: tflite_custom
+description: Image Captioning
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite: ^1.0.4
+  image_picker: ^0.6.1+8
+  image: ^2.1.4
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+#  plugin:
+#    androidPackage: sq.flutter.tflite
+#    pluginClass: TflitePlugin
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/mobilenet_v1_1.0_224.txt
+    - assets/mobilenet_v1_1.0_224.tflite
+    - assets/yolov2_tiny.tflite
+    - assets/yolov2_tiny.txt
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilenet.txt
+    - assets/deeplabv3_257_mv_gpu.tflite
+    - assets/deeplabv3_257_mv_gpu.txt
+    - assets/posenet_mv1_075_float_from_checkpoints.tflite
+
+
+  fonts:
+    - family: Source Sans Pro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-Regular.ttf
